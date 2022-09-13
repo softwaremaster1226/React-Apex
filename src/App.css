@@ -1,0 +1,85 @@
+.App {
+	width: 100vw;
+	height: 100vh;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 60px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	padding: 0 15px 0 15px;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+.App-main {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+	height: calc(100% - 60px);
+}
+
+.App-panel {
+	width: 50%;
+	height: 100%;
+	padding: 0 15px 0 15px;
+}
+
+.Panel-border {
+	border-right: 2px solid darkgray;
+	background-color: #7ac0d3;
+}
+
+.Objective-one {
+	padding: 15px;
+}
+
+.Objective-one > * {
+	margin: 0 5px;
+}
+
+.Objective-two {
+	padding: 0 10px;
+}
+
+.Objective-two > * {
+	margin: 0 5px;
+}
+
+.Objective-three {
+	padding: 15px;
+}
+
+.Objective-three > * {
+	margin: 5px 5px;
+}
+
+.data-title {
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+
+.data-row {
+	display: flex;
+	margin: 16px 0;
+}
+
+.data-key {
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 0;
+}
+
+.data-value {
+	margin: 0;
+	margin-inline-start: 16px;
+}
